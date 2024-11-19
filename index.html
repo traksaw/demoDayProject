@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Page</title>
+    <link href="./css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Song: "My Awesome Song"</h1>
+    <div class="container">
+        <h2>Recordings</h2>
+        <div class="recordings-list" id="recordingsList">
+            <!-- Example Recording -->
+            <div class="recording-item">
+                <span>Recording 1 - BPM: 120, Key: C Major</span>
+                <button class="button red" onclick="deleteRecording(this)">Delete</button>
+            </div>
+        </div>
+        <button class="button green" onclick="addRecording()">Add New Recording</button>
+
+        <h2>Comments</h2>
+        <div class="comments-list" id="commentsList">
+            <!-- Example Comment -->
+            <div class="comment-item">
+                <span>"This recording works well for the intro."</span>
+            </div>
+        </div>
+        <textarea id="newComment" placeholder="Add a comment about the song..." rows="3" style="width: 100%; margin-top: 10px;"></textarea>
+        <button class="button" onclick="addComment()">Add Comment</button>
+
+        <div class="share-section">
+            <h2>Share This Song</h2>
+            <input type="email" id="shareEmail" placeholder="Enter email to share with" />
+            <button class="button" onclick="shareSong()">Share Song</button>
+        </div>
+    </div>
+
+    <script href="./js/main.js"></script>
+      
+</body>
+</html>
