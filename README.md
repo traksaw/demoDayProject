@@ -4,6 +4,12 @@ The Recording App is a tool for musicians, producers, and collaborators to strea
 
 ---
 
+<img width="1498" alt="Screenshot 2024-11-24 at 4 24 36 PM" src="https://github.com/user-attachments/assets/1d99f081-a3b4-4be0-a674-24b659104aee">
+
+
+
+---
+
 ## Features
 
 ### Current Features (First Iteration)
